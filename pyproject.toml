@@ -1,0 +1,26 @@
+[project]
+name            = "directed_symptom_networks"
+version         = "0.1.0"
+description     = "Directed Influence Ising fitting for symptom networks"
+authors         = [
+  { name = "Juan José Manjarín", email = "jjmanjarin@faculty.ie.edu" },
+  { name = "Joana Rocha",       email = "jorochac18@gmail.com" }
+]
+license         = { text = "MIT" }
+readme          = "README.md"
+requires-python = ">=3.10"
+dependencies    = [
+  "torch>=2.2",
+  "networkx>=3.1",
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "scipy"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "black", "isort", "pre-commit"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
