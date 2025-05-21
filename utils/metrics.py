@@ -5,7 +5,7 @@ from matplotlib.cm import ScalarMappable
 from matplotlib.colors import Normalize, to_rgb
 import networkx as nx
 import networkx as nx
-from GraphicalModels.utils.data_utils import VARIABLE_DEFINITIONS
+from directed_symptom_networks.utils.data_utils import VARIABLE_DEFINITIONS
 from matplotlib.gridspec import GridSpec
 
 
