@@ -1,8 +1,8 @@
 import pandas as pd
 import torch
 
-from GraphicalModels.core.models import DirectedInfluenceIsingModel
-from GraphicalModels.experiments.experiment import get_data
+from directed_symptom_networks.core.models import DirectedInfluenceIsingModel
+from directed_symptom_networks.experiments.experiment import get_data
 
 def run_symptom_cascade_simulations(model, symptom_names, num_simulations=100, burn_in=500):
     """
