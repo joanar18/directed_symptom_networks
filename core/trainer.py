@@ -2,7 +2,7 @@ import pandas as pd
 import torch
 import torch.optim as optim
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from GraphicalModels.core.models import DirectedInfluenceIsingModel
+from directed_symptom_networks.core.models import DirectedInfluenceIsingModel
 
 class Trainer:
     """
